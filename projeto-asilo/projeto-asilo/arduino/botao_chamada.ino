@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid     = "NOME_DA_REDE";
-const char* password = "SENHA_DA_REDE";
+const char* ssid     = "REDE";
+const char* password = "SENHA";
 
-const char* serverUrl = "http://SEU_SERVIDOR:3000/api/chamada";
+const char* serverUrl = "http://Chamada:3000/api/chamada";
 
 const int botaoPin = 2;   
 const int ledPin   = 4;   
